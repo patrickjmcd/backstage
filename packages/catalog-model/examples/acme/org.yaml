@@ -30,3 +30,14 @@ spec:
     - ./team-b-group.yaml
     - ./team-c-group.yaml
     - ./team-d-group.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: patrick.mcdonagh
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: patrickjmcd@gmail.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [meshify-prototyping-integration]
