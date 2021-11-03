@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: carbon
+  description: The Carbon web API
+  tags:
+    - Carbon
+    - rest
+spec:
+  type: openapi
+  lifecycle: production
+  owner: software
+  definition:
+    $text: https://carbon.meshify.com/api/help.json
